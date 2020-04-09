@@ -123,6 +123,6 @@ mas 'Keynote', id: 409183694
 mas 'Medis', id: 1063631769
 mas 'Microsoft Remote Desktop 10', id: 1295203466
 mas 'Numbers', id: 409203825
-mas 'Apple Remote Desktop', 409907375
+mas 'Apple Remote Desktop', id: 409907375
 mas 'Things', id: 904280696
 mas 'Tweetbot', id: 1384080005
