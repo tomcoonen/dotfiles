@@ -46,6 +46,7 @@ brew 'yarn'
 
 # Apps
 cask '1password'
+cask 'adobe-creative-cloud'
 cask 'aerial'
 cask 'alfred'
 cask 'bartender'
@@ -64,10 +65,12 @@ cask 'insomnia'
 cask 'istat-menus'
 cask 'java'
 cask 'keybase'
+cask 'logitech-options'
 cask 'mailplane'
 cask 'microsoft-excel'
-cask 'microsoft-word'
 cask 'microsoft-outlook'
+cask 'microsoft-teams'
+cask 'microsoft-word'
 cask 'mysqlworkbench'
 cask 'ngrok'
 cask 'nvidia-geforce-now'
@@ -91,6 +94,7 @@ cask 'transmit'
 cask 'vagrant'
 cask 'virtualbox' # Might need to allow access in Security settings
 cask 'virtualbox-extension-pack'
+cask 'visual-studio-code'
 cask 'vlc'
 cask 'whatsapp'
 
@@ -116,6 +120,9 @@ mas '1Password', id: 1333542190
 mas 'Byword', id: 420212497
 mas 'Giphy Capture', id: 668208984
 mas 'Keynote', id: 409183694
+mas 'Medis', id: 1063631769
+mas 'Microsoft Remote Desktop 10', id: 1295203466
 mas 'Numbers', id: 409203825
+mas 'Apple Remote Desktop', '409907375'
 mas 'Things', id: 904280696
 mas 'Tweetbot', id: 1384080005
