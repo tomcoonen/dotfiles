@@ -1,8 +1,8 @@
 # Taps
-tap 'caskroom/cask'
-tap 'caskroom/eid'
-tap 'caskroom/fonts'
-tap 'caskroom/versions'
+tap 'homebrew/cask'
+tap 'homebrew/cask-eid'
+tap 'homebrew/cask-fonts'
+tap 'homebrew/cask-versions'
 tap 'homebrew/bundle'
 
 # Binaries
@@ -10,6 +10,8 @@ brew 'awscli'
 brew 'bash' # Latest Bash version
 brew 'bat' # "cat" on steroids
 brew 'coreutils' # Those that come with macOS are outdated
+brew 'ffmpeg'
+brew 'gh'
 brew 'git'
 brew 'gnupg2'
 brew 'grep'
@@ -18,49 +20,74 @@ brew 'hub'
 brew 'mackup'
 brew 'mas' # Mac App Store manager
 brew 'pkg-config' # https://github.com/driesvints/dotfiles/issues/20
+brew 'stripe'
 brew 'trash' # Manage the Trash bin
 brew 'tree' # List directories in a tree structure
 brew 'zlib' # Needed for Memcached
-brew 'zsh'
-brew 'zsh-completions'
+
+# Spatie Medialibrary
+brew 'jpegoptim'
+brew 'optipng'
+brew 'pngquant'
+brew 'svgo'
+brew 'gifsicle'
 
 # Development
 brew 'php'
+brew 'php@7.3'
 brew 'php@7.2'
+brew 'composer'
+brew 'imagemagick'
 brew 'mysql'
 brew 'nginx'
 brew 'node'
 brew 'redis'
+brew 'yarn'
 
 # Apps
+cask '1password'
 cask 'aerial'
 cask 'alfred'
+cask 'bartender'
 cask 'caffeine'
+cask 'chronos'
 cask 'discord'
 cask 'docker'
 cask 'dropbox'
-cask 'eid-be'
-cask 'eid-be-viewer'
 cask 'firefox'
 cask 'github'
 cask 'google-backup-and-sync'
 cask 'google-chrome'
 cask 'gpg-suite'
+cask 'imageoptim'
 cask 'insomnia'
 cask 'java'
+cask 'mailplane'
+cask 'microsoft-excel'
+cask 'microsoft-word'
+cask 'microsoft-outlook'
 cask 'mysqlworkbench'
+cask 'nvidia-geforce-now'
+cask 'paw'
 cask 'phpstorm'
-cask 'sequel-pro'
+cask 'querious'
+cask 'screenflow'
 cask 'skype'
 cask 'slack'
+cask 'sonos'
+cask 'sourcetree'
+cask 'steam'
 cask 'sublime-text'
 cask 'tableplus'
-cask 'there'
+cask 'telegram-desktop'
+cask 'the-unarchiver'
 cask 'tor-browser'
 cask 'transmit'
 cask 'vagrant'
-cask 'virtualbox'
+cask 'virtualbox' # Might need to allow access in Security settings
 cask 'virtualbox-extension-pack'
+cask 'vlc'
+cask 'whatsapp'
 
 # Quicklook
 cask 'qlcolorcode'
@@ -73,6 +100,7 @@ cask 'qlstephen'
 cask 'font-lato'
 cask 'font-open-sans'
 cask 'font-roboto'
+cask 'font-roboto-condensed'
 cask 'font-source-code-pro-for-powerline'
 cask 'font-source-code-pro'
 cask 'font-source-sans-pro'
@@ -83,9 +111,6 @@ mas '1Password', id: 1333542190
 mas 'Byword', id: 420212497
 mas 'Giphy Capture', id: 668208984
 mas 'Keynote', id: 409183694
-mas 'Sip', id: 507257563
-mas 'Spark', id: 1176895641
-mas 'The Unarchiver', id: 425424353
+mas 'Numbers', id: 409203825
 mas 'Things', id: 904280696
 mas 'Tweetbot', id: 1384080005
-mas 'WhatsApp', id: 1147396723 
