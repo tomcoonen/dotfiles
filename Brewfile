@@ -107,7 +107,7 @@ cask 'quicklook-csv'
 cask 'qlstephen'
 
 # Fonts
-cask 'font-lato'
+#cask 'font-lato'
 cask 'font-open-sans'
 cask 'font-roboto'
 cask 'font-roboto-condensed'
