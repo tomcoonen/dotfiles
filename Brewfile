@@ -45,7 +45,6 @@ brew 'redis'
 brew 'yarn'
 
 # Apps
-cask '1password'
 cask 'adobe-creative-cloud'
 cask 'aerial'
 cask 'alfred'
